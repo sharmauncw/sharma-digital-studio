@@ -129,6 +129,18 @@ a{color:var(--coral-dark)}
 .contact-box .lede{margin-bottom:10px}
 .contact-box p{color:var(--ink-soft);max-width:36em;margin-bottom:16px}
 
+/* Case-study page */
+.page-hero{padding:52px 0 46px}
+.page-hero h1{font-size:clamp(2rem,7.4vw,3.1rem)}
+.more-link{margin-top:14px}
+.more-link a{font-weight:600;text-decoration:none;border-bottom:2px solid var(--gold)}
+.more-link a:hover{color:var(--coral-dark)}
+.note{
+  margin-top:18px;max-width:40em;font-size:.95rem;color:var(--ink-soft);
+  background:var(--cream);border:1px solid var(--line);border-left:4px solid var(--gold);
+  border-radius:10px;padding:13px 16px;
+}
+
 /* Footer */
 .site-footer{padding:26px 0 34px}
 .footer-in{display:flex;flex-wrap:wrap;gap:6px 22px;justify-content:space-between;font-size:.92rem;color:var(--ink-soft)}
